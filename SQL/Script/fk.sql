@@ -1,0 +1,10 @@
+alter table Employees_1 add constraints fke1 foreign key (EmployeeID) references Employees_1(EmployeeID);
+alter table EmployeeTerritories add constraints fke2 foreign key (EmployeeID) references Employees_1(EmployeeID);
+alter table EmployeeTerritories add constraints fke3 foreign key (TerritoryID) references Territories(TerritoryID);
+alter table OrderDetails add constraints fke4 foreign key (OrderID) references Orders(OrderID);
+alter table OrderDetails add constraints fke5 foreign key (ProductID) references Products(ProductID);
+alter table Orders add constraints fke6 foreign key (EmployeeID) references Employees_1(EmployeeID);
+alter table Orders add constraints fke7 foreign key (CustomerID) references Customers(CustomerID);
+alter table Products add constraints fke8 foreign key (SupplierID) references Suppliers(SupplierID);
+alter table Products add constraints fke9 foreign key (CategoryID) references Categories(CategoryID);
+alter table Territories add constraints fke10 foreign key (RegionID) references Region(RegionID);

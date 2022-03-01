@@ -1,0 +1,10 @@
+alter table Employees_1 drop constraint fke1;
+alter table EmployeeTerritories drop constraint fke2;
+alter table EmployeeTerritories drop constraint fke3;
+alter table OrderDetails drop constraint fke4;
+alter table OrderDetails drop constraint fke5;
+alter table Orders drop constraint fke6;
+alter table Orders drop constraint fke7;
+alter table Products drop constraint fke8;
+alter table Products drop constraint fke9;
+alter table Territories drop constraint fke10;

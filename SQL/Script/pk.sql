@@ -1,0 +1,11 @@
+alter table Categories add constraints pka1 primary key (CategoryID);
+alter table Customers add constraints pka2 primary key (CustomerID);
+alter table Employees_1 add constraints pka3 primary key (EmployeeID);
+alter table EmployeeTerritories add constraints pka4 primary key (EmployeeID,TerritoryID);
+alter table OrderDetails add constraints pka5 primary key (OrderID,ProductID);
+alter table Orders add constraints pka6 primary key (OrderID);
+alter table Products add constraints pka7 primary key (ProductID);
+alter table Region add constraints pka8 primary key (RegionID);
+alter table Shippers add constraints pka9 primary key (ShipperID);
+alter table Suppliers add constraints pka10 primary key (SupplierID);
+alter table Territories add constraints pka11 primary key (TerritoryID);

@@ -1,0 +1,11 @@
+drop table Categories;
+drop table Customers;
+drop table Employees_1;
+drop table EmployeeTerritories;
+drop table OrderDetails;
+drop table Orders;
+drop table Products;
+drop table Region;
+drop table Shippers;
+drop table Suppliers;
+drop table Territories;
